@@ -6,9 +6,9 @@ $(function () {
     menuOpen.click(function () {
         menu.toggleClass('on');
         if (menu.css('display') === 'block') {
-            menuBtnImg.attr('src','../img/menu-minus.png');
+            menuBtnImg.attr('src','img/menu-minus.png');
         } else {
-            menuBtnImg.attr('src','../img/menu-plus.png');
+            menuBtnImg.attr('src','img/menu-plus.png');
            
         }
     });
